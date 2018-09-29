@@ -1,4 +1,4 @@
-.container {
+#main {
 	max-width: 1140px;
 	margin: auto;
 	background: #E9EBF0;
@@ -43,7 +43,7 @@
 	margin-bottom: -1rem;
 }
 
-.content {
+#tribute-info {
 	grid-area: content;
 	align-self: start;
 }
@@ -53,7 +53,7 @@
 }
 
 @media (max-width: 800px) {
-	.container {
+	#main {
 		grid-template-columns: repeat(2, minmax(200px, 1fr));
 		grid-template-rows: auto auto auto auto;
 		grid-gap: 1rem;
@@ -66,13 +66,13 @@
 		align-items: center;
 	}
 
-	.content {
+	#tribute-info {
 		padding: 0 1rem;
 	}
 }
 
 @media (max-width: 600px) {
-	.container {
+	#main {
 		grid-template-columns: minmax(200px, 1fr);
 		grid-template-rows: auto auto auto auto;
 		grid-gap: 1rem;
@@ -85,7 +85,7 @@
 		align-items: center;
 	}
 
-	.content {
+	#tribute-info {
 		padding: 0 1rem;
 	}
 }
